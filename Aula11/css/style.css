@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#nav{
+    background-color: #d1c4e9;
+    position: absolute;
+    width: 100%;
+    top:-100px;
+    transition: ease-out 1s;
+    
+}
+#nav nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+#nav nav ul li{
+    margin-right: 20px;
+}
+#nav nav ul li a{
+    font-family: arial;
+    font-size: 10pt;
+    text-decoration: none;
+    color: white;
+}
+#buscar{
+    width: 500px;
+    margin-right: 10px;
+    padding: 5px;
+    background-color: #ede7f6;
+    border: 0px;
+    outline: none;
+}
+button{
+    padding: 5px;
+    border: 0px;
+    background-color: #9575cd;
+    cursor: pointer;
+    color: white;
+}
+#fechar{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    right: 10px;
+    font-size: 20pt;
+    font-family: Arial;
+}
+#menu{
+    text-decoration: none;
+    color: #7c4dff;
+    font-size: 20pt;
+    font-family: Verdana;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 10px;
+    transition: ease 0.5s;
+}
+#menu:hover{
+    margin-left: 15pt;
+    color: black;
+    text-shadow: 0px 0px 5px #aa00ff;
+}
+#listar,#resultado,#inserir{
+    width: 80vh;
+    height: 100vh;
+    border: 1px solid black;
+    margin: 150px auto;
+
+}
